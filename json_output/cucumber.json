@@ -1,0 +1,292 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3464771000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1951559300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterStepDef.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login test",
+        "description": "",
+        "id": "jbk-offline-application;login-test",
+        "after": [
+          {
+            "result": {
+              "duration": 270086800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 199136300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2950194200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be on login page",
+            "match": {
+              "location": "LoginStepDef.user_should_be_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 711212400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters uname and pass and click login button",
+            "match": {
+              "location": "LoginStepDef.user_enters_uname_and_pass_and_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13878800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user will be on home page",
+            "match": {
+              "location": "LoginStepDef.user_will_be_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1464364900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1888603500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterStepDef.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "verify logo",
+        "description": "",
+        "id": "jbk-offline-application;verify-logo",
+        "after": [
+          {
+            "result": {
+              "duration": 182356900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 196528300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3153342000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should be on login page for logo",
+            "match": {
+              "location": "LoginStepDef.user_should_be_on_login_page_for_logo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95537600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see JBK logo",
+            "match": {
+              "location": "LoginStepDef.user_should_see_JBK_logo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "JBK Offline Application",
+    "description": "",
+    "id": "jbk-offline-application",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1936411700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2421308800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterStepDef.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "register test",
+        "description": "",
+        "id": "register-a-user-on-offline-website;register-test",
+        "after": [
+          {
+            "result": {
+              "duration": 127377700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 117128700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3302327500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on login page for register",
+            "match": {
+              "location": "RegisterStepDef.user_should_be_on_login_page_for_register()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202407000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on register link",
+            "match": {
+              "location": "RegisterStepDef.user_clicks_on_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 596481200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fills all details",
+            "match": {
+              "location": "RegisterStepDef.user_fills_all_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98528200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click submit button",
+            "match": {
+              "location": "RegisterStepDef.click_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32982100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should see alert",
+            "match": {
+              "location": "RegisterStepDef.user_should_see_alert()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "register a user on offline WebSite",
+    "description": "",
+    "id": "register-a-user-on-offline-website",
+    "keyword": "Feature",
+    "uri": "register.feature"
+  }
+]
