@@ -19,12 +19,12 @@ public class RegisterStepDef {
 	WebDriver driver;
     LoginPage lp=null;
     RegisterPage rp=null;
-    @Before
+    @Before("@register")
     public void setUp() {
     System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 	driver = new ChromeDriver();
     }
-    @After//it will run after every scenario
+    @After("@register")//it will run after every scenario
 	public void tearDown(){
 		driver.close();
 	}

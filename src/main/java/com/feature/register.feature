@@ -1,3 +1,4 @@
+@register
 Feature: register a user on offline WebSite
 
 Scenario: register test
